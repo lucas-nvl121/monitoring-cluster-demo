@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# monitoring-cluster-demo
-Local observability stack on kind k8s
-=======
 ## Local Observability Stack on kind — Design and Dev Notes
 
 ### Design Goals
@@ -208,4 +204,3 @@ kubectl -n demo port-forward svc/demo-go 8080:8080
 - Helped set up the `demo-go` Dockerfile and Kubernetes Deployment/Service manifests, plus image build/load and rollout commands
 - Broke down the design and tasks into smaller, timeboxed steps to limit scope and keep momentum
 - Authored the app README and provided project-wide sanity-check guidance
->>>>>>> da0880c (Initial project setup and core structure)
